@@ -10,10 +10,10 @@
 
 int main() {
   std::cout << "A circle with a radius of" << std::endl;
-  std::cout << "15mm will have the following:" << std::endl;
+  std::cout << "15 mm will have the following:" << std::endl;
   std::cout << std::endl;
-  std::cout << "Perimeter of " << (2 * M_PI * 15) << "mm." << std::endl;
-  std::cout << "Area of " << (M_PI * pow(15, 2)) << "mm²." << std::endl;
+  std::cout << "Perimeter of " << (2 * M_PI * 15) << " mm." << std::endl;
+  std::cout << "Area of " << (M_PI * pow(15, 2)) << " mm²." << std::endl;
   std::cout << std::endl;
   std::cout << "Done." << std::endl;
 }
